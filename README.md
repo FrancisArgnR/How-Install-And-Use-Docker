@@ -25,7 +25,7 @@ $ docker pull _image_
 $ docker images
 
 
-## USE DOCKER
+## DOCKER CONTAINER
 
 #### Execute docker container
 
@@ -35,7 +35,9 @@ $ docker run -it _image_
 
 $ docker ps
 
-#### Close the executio
+## INSIDE DOCKER
+
+#### Close the container
 
 $ exit
 
