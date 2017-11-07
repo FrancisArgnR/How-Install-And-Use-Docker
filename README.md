@@ -10,9 +10,18 @@
 
 $ docker run hello-world
 
+#### Docker subcommand
+
+$ docker
+
+#### Help subcommand
+
+~ docker _docker subcommand_ --help
+
+
 ## DOCKER IMAGES
 
-#### Search for images in Docker Hub
+#### Looking for images in Docker Hub
 
 $ docker search _image_
 
@@ -24,22 +33,42 @@ $ docker pull _image_
 
 $ docker images
 
+#### Remove an image
+
+$ docker rm _image_
+
 
 ## DOCKER CONTAINER
 
 #### Execute docker container
 
 $ docker run -it _image_
+  
+  - t: launch console
 
-#### Check the container execution
+#### Status of containers in execution
 
 $ docker ps
 
-## INSIDE DOCKER
+#### Stop a container
 
-#### Close the container
+$ docker stop _image or containerID_
+
+#### Restart a container
+
+$ docker restart _image or containerID_
+
+#### Remove the image of a container in execution
+
+$ docker rm --force _image or containerID_
+
+
+## INSIDE CONTAINER
+
+#### Leave the container
 
 $ exit
+
 
 ## REFERENCES
 
