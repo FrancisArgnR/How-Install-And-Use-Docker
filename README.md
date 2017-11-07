@@ -10,13 +10,13 @@
 
 $ docker run hello-world
 
-#### Docker subcommand
+#### Show docker subcommand
 
 $ docker
 
-#### Help subcommand
+#### Help with subcommand
 
-~ docker _docker subcommand_ --help
+$ docker _docker subcommand_ --help
 
 
 ## DOCKER IMAGES
