@@ -68,9 +68,13 @@ $ docker rm --force _image or containerID_
 
 $ docker cp _file in host_ _image or containerID_:/_path and name in container_
 
+  Example: docker cp abc.txt my-alpine:/tmp/bcd.txt
+
 #### Copy files Docker container to host
 
 $ docker cp _image or containerID_:/_path and name in container_ _file in host_ 
+
+  Example: docker cp my-alpine:/root/data/xyz.txt /tmp/xyz.txt 
 
 ## INSIDE CONTAINER
 
